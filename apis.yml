@@ -1,7 +1,29 @@
 aid: cubenergy
-name: cubenergy
-description: cubenergy is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cubenergy.png
+name: Cubenergy
+description: >-
+  Cubenergy (ShenZhen Cubenergy Co., Ltd. / 库博能源) is a BloombergNEF Tier 1
+  manufacturer of Battery Energy Storage Systems (BESS) for commercial,
+  industrial, and utility-scale deployments. The company integrates
+  self-developed Battery Systems, BMS, and EMS with grid, PV, wind, and diesel
+  generation into standardized, all-in-one, transportable, EPC-free energy
+  storage products (FlexCombo, PowerCombo E5, FlexCombo D2, FlexCube C1). Its
+  products are certified to UL9540, UL9540A, and NFPA855, and it offers an O&M
+  platform plus bankability (DNV certified, AIG insured) for funded and insured
+  projects. Surfaced as a portfolio company of Qiming Ventures and added to the
+  API Evangelist network. Cubenergy publishes a corporate marketing site with
+  no public developer/API program at this time.
 url: https://raw.githubusercontent.com/api-evangelist/cubenergy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Energy Storage
+- Battery
+- BESS
+- Renewable Energy
+- Clean Energy
+- Manufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +50,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://cubenergy.com.cn
+  url: https://www.cubenergy.com
+- type: Support
+  url: https://www.cubenergy.com/contact
+- type: Blog
+  url: https://www.cubenergy.com/news
+- type: PrivacyPolicy
+  url: https://www.cubenergy.com/about/privacy.html
+- type: LinkedIn
+  url: https://www.linkedin.com/company/cubenergy-technology
+- type: DomainSecurity
+  url: security/cubenergy-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
